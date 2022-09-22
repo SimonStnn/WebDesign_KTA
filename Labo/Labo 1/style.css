@@ -1,0 +1,50 @@
+/* Variablen maken */
+:root {
+   --background-color: wheat;
+}
+
+body {
+   background-color: var(--background-color);
+   margin: 0; /* Alle margin naar nul zetten*/
+}
+
+h1.title {
+   /* De titel in het midden van de pagina zetten */
+   display: flex;
+   justify-content: center;
+}
+
+/* Tussentitels onderlijnen */
+h2 {
+   text-decoration: underline;
+}
+/* De horizontale lijnen een opmaak geven */
+hr {
+   width: 100%;
+   border: 1px solid orange;
+}
+/* Een font geven en een groote geven */
+p.p1,
+p.p1-title {
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 12px;
+}
+
+p.p2,
+p.p2-title {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 15px;
+}
+
+p.p3,
+p.p3-title {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 17px;
+}
+
+/* Alle paragrafen met deze class een andere kleur geven */
+p.p1-title,
+p.p2-title,
+p.p3-title {
+   color: chocolate;
+}
