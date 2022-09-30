@@ -1,0 +1,12 @@
+.pictures {
+   display: flex;
+}
+
+.picaudio {
+   display: flex;
+   flex-flow: column;
+   
+}
+.audio{
+   width: 300px;
+}
